@@ -9,7 +9,7 @@ namespace Examination_System
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter type of exam (1 for practical | 2 for final): ");
+            Console.WriteLine("Please enter type of exam (1 for practical | 2 for final): "); 
             int examType = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Please enter the time for the exam (from 30 min to 180 min)");
